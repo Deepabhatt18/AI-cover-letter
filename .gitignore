@@ -1,0 +1,9 @@
+# Hide environment and config files
+.env
+config.js
+
+# Node modules (future use)
+node_modules/
+
+# OS files
+.DS_Store
