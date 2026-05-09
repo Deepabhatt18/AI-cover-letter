@@ -1,70 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css">
-    <title>coverai</title>
-  </head>
-  <body>
-     <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>AI Cover Letter Generator</title>
 
-    <link rel="stylesheet" href="style.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/style.css"/>
+
+    <!-- PDF JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
 </head>
 
 <body>
+
     <section id="header">
        <h1>AI Cover Letter Generator</h1>
     </section>
+
     <section id="user-info">
         <div class="user-input">
-            <input id="name"  type="text" placeholder="Enter Your Name"/>
 
-            <input id="job" type="text" placeholder="Job Role" />
-
+            <input id="name" type="text" placeholder="Enter Your Name"/>
+            <input id="job" type="text" placeholder="Job Role"/>
             <input id="skill" type="text" placeholder="Skills"/>
-
             <input id="company" type="text" placeholder="Company Name"/>
+
             <label for="resume-upload">Upload Resume (PDF)</label>
             <input type="file" id="resume-upload" accept=".pdf" title="Upload your resume in PDF format"/>
-
-            <!-- Job Description -->
 
             <textarea id="job-description" placeholder="Paste Job Description"></textarea>
 
             <button id="generate-btn">Generate Letter</button>
 
         </div>
-
     </section>
-    <section id="output">++
-        <div class="output-box">
-            <p id="output-text"> Your personalized cover letter will appear here.. </p>
 
+    <section id="output">
+        <div class="output-box">
+            <p id="output-text">Your personalized cover letter will appear here...</p>
         </div>
 
         <button id="copy-btn">Copy to Clipboard</button>
-
     </section>
 
     <section id="footer">
-
         2026 © All Rights Reserved
-
     </section>
 
+    <!-- JS -->
     <script type="module" src="/src/main.js"></script>
 
 </body>
-</html>
-   
-    <script type="module" src="/src/main.js"></script>
 </html>
