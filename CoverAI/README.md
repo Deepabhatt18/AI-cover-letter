@@ -27,7 +27,9 @@ CoverAI is a smart web application that helps users generate professional cover 
 
 ## 📸 Screenshots
 
-![App Screenshot](your-screenshot-link-here)
+![App Screenshot](Screenshot.png)
+![App Screenshot](Screenshot1.png)
+![App Screenshot](Screenshot2.png)
 
 ---
 
