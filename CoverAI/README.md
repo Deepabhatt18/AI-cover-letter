@@ -33,9 +33,9 @@ CoverAI is a smart web application that helps users generate professional cover 
 
 ---
 
-## 🔗 Live Demo
-
-👉 https://your-live-link-here.com
+## 🔗 Live Demo 
+## live demo 
+👉 https://ai-cover-letter-gold.vercel.app/
 
 ---
 
